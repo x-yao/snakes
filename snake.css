@@ -1,0 +1,46 @@
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font,
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, button {
+    font-size: 100%;
+	vertical-align: baseline;
+	text-decoration: none;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+canvas{
+	position:absolute;
+	top:100px;
+	background:white;
+	border:1px solid black;
+}
+.gameOver{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.4);
+}
+.displayN{
+	display:none;
+}
+#over{
+	position:absolute;
+	left:50%;
+	top:50%;
+	background:rgba(0,0,0,.8);
+	color:white;
+}
+#again{
+	position:absolute;
+	left:51%;
+	top:60%;
+	background:rgba(0,0,0,.6);
+	color:white;
+}
