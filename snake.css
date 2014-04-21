@@ -17,7 +17,7 @@ canvas{
 	position:absolute;
 	top:100px;
 	background:white;
-	border:1px solid black;
+	border:10px solid rgba(32,96,130,.8);
 }
 .gameOver{
 	position:absolute;
@@ -43,4 +43,9 @@ canvas{
 	top:60%;
 	background:rgba(0,0,0,.6);
 	color:white;
+}
+#score{
+	position:absolute;
+	left:300px;
+	top:200px;
 }
